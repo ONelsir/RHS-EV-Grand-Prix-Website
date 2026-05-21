@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(65, 64, 64);
+    margin: 0px;
+    
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    border-radius: 1cm;
+    padding: 5%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+img{
+    float: left;
+}
