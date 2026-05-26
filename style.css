@@ -12,6 +12,19 @@ button{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
 img{
-    float: left;
+    height: 10cm;  
+}
+.carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 600px;
+}
+.slides img {
+  display: none; /* Hide all images by default */
+  
+}
+.slides img.active {
+  display: block; /* Only show the active image */
 }

@@ -3,18 +3,48 @@
     <head>
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css">
         <title>RHS EV Grand Prix</title>
     </head>
-<h1>Rocktown High School Electric Vehicle Grand Prix</h1>
+
     <body>
-        <!--Where we display stuff for our webpage-->
-        <p>Where we need to add stuff about us; a breif description</p>
+       
+        <img src="/images/EVGPlogo.png"  float="left" alt="Rocktown High School Electic Vehicle Grand Prix logo">
+         <button>
+            <label for="aboutus">About Us</label>
+         </button>
+        <button>
+            <label for="ourteam">Our Team</label>
+         </button>
+         <button>
+            <label for="ourcar">Our Car</label>
+         </button>
+         <button>
+            <label for="oursponsors">Our Sponsors</label>
+         </button>
+
+        
+        <p>Welcom to the Rocktown High School Electric Vehicle Grand Prix website!  </p>
         <label for="About Us">About Us</label>
         <select name="About Us" id="About Us">
             
-            <option value="Our Team">Our Team</option>
+            
+            <option value="Our Team">Our Team</option>    
             <option value="Our Car">Our Car</option>
             <option value="Our Sponsors">Our Sponsors</option>
             </select>
+            <!--Image Slideshow-->
+            <div class="carousel">
+                <div class="slides">
+                    <!--Must add images-->
+                    <img src="images/img1.JPEG" height="300" class="active" alt="Slide 1">
+                    <img src="images/img2.JPEG" height="300" alt="Slide 2">
+                    <img src="images/img3.JPEG" height="300" alt="Slide 3">
+                    <!--Continue adding more images in the same way-->
+
+                </div>
+                <button id="prevBtn" onclick=""changeSlide(-1)>←</button>
+                <button id="nextBtn" onclick=""changeSlide(1)>→</button>
+            </div>
     </body>
 </html>
