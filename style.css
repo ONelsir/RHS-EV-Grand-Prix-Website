@@ -22,7 +22,8 @@ button{
   position: relative;
   overflow: hidden;
   max-width: 600px;
-  margin: 10px;
+  margin: 20px;
+ 
 }
 .slides img {
   display: none; /* Hide all images by default */
@@ -40,4 +41,7 @@ button{
   flex: 1;
   padding: 10px;
 }
-
+video{
+  float: right;
+  margin: 20px;
+}

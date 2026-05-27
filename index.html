@@ -10,7 +10,7 @@
     <body>
         <!--Main Logo-->
         <div class="image-container">
-        <img src="/images/EVGPlogo.png"   alt="Rocktown High School Electic Vehicle Grand Prix logo">
+        <img src="images/images/EVGPlogo.png"   alt="Rocktown High School Electic Vehicle Grand Prix logo">
             </div>
 
         <!--Links aboutUs-->
@@ -63,18 +63,28 @@
                 <div class="slides">
                     <!--Must add images-->
                     
-                    <img src="images/img1.jpg" height="400px" class="active" alt="Slide 1">
-                    <img src="images/img2.jpg" height="400px" alt="Slide 2">
-                    <img src="images/img3.jpg" height="400px" alt="Slide 3">
+                    <img src="images/images/img1.jpg" width="640px" class="active" alt="Slide 1">
+                    <img src="images/images/img2.jpg" width="640px" alt="Slide 2">
+                    <img src="images/images/img3.jpg" width="640px" alt="Slide 3">
                         
                     <!--Continue adding more images in the same way-->
-
+               
                 </div>
+                
                 <div class="flex-container">
                 <button id="prevBtn" onclick="changeSlide(-1)">←</button>
                 <button id="nextBtn" onclick="changeSlide(1)">→</button>
                 </div>
+            
+            
             </div>
+
+            
+
+            <video width="640px" controls>
+                <source src="images/videos/Flying Laps at Rocktown.mp4" type="video/mp4">
+            </video>
+
             <script src="script.js"></script>
     </body>
 </html>
