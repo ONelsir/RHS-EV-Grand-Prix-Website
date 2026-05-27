@@ -9,32 +9,48 @@
 
     <body>
         <!--Main Logo-->
-        <img src="/images/EVGPlogo.png"  float="left" alt="Rocktown High School Electic Vehicle Grand Prix logo">
+        <div class="image-container">
+        <img src="/images/EVGPlogo.png"   alt="Rocktown High School Electic Vehicle Grand Prix logo">
+            </div>
 
         <!--Links aboutUs-->
+      <div class="flex-container">  
         <a href="aboutUs/aboutUs.html">
-         <button>
+         <button class="flex-btn">
             <label for="aboutus">About Us</label>
          </button>
          </a>
          <!--Our team button-->
          <a href="aboutUs/ourTeam.html">
-        <button>
+        <button class="flex-btn">
             <label for="ourteam">Our Team</label>
          </button>
          </a>
          <!--our car button-->
          <a href="aboutUs/ourCar.html">
-         <button>
+         <button class="flex-btn">
             <label for="ourcar">Our Car</label>
          </button>
          </a>
          <!--Our sponsors button-->
          <a href="aboutUs/ourSponsors.html">
-         <button>
+         <button class="flex-btn">
             <label for="oursponsors">Our Sponsors</label>
          </button>
          </a>
+         <!--Become a sponsor button-->
+         <a href="aboutUs/becomeSposor.html">
+            <button class="flex-btn">
+                <label for="becomesponsor">Become a Sponsor</label>
+            </button>
+         </a>
+         <!-- Calendar button-->
+         <a href="aboutUs/calendar">
+            <button class="flex-btn">
+                <label for="calendar">Calendar</label>
+            </button>
+         </a>
+       </div>  
          <!--If we need another page, add it in the same way as shown above with a button
              If we need a button that is has different css qualities, use a div tag to seperate it-->
 
@@ -42,18 +58,23 @@
         <p>Welcome to the Rocktown High School Electric Vehicle Grand Prix website!  </p>
         
             <!--Image Slideshow-->
-            <!--THIS NEEDS FIXED!!!(remove comment when fixed)-->
+            
             <div class="carousel">
                 <div class="slides">
                     <!--Must add images-->
-                    <img src="images/img1.JPEG" height="300" class="active" alt="Slide 1">
-                    <img src="images/img2.JPEG" height="300" alt="Slide 2">
-                    <img src="images/img3.JPEG" height="300" alt="Slide 3">
+                    
+                    <img src="images/img1.jpg" height="400px" class="active" alt="Slide 1">
+                    <img src="images/img2.jpg" height="400px" alt="Slide 2">
+                    <img src="images/img3.jpg" height="400px" alt="Slide 3">
+                        
                     <!--Continue adding more images in the same way-->
 
                 </div>
-                <button id="prevBtn" onclick=""changeSlide(-1)>←</button>
-                <button id="nextBtn" onclick=""changeSlide(1)>→</button>
+                <div class="flex-container">
+                <button id="prevBtn" onclick="changeSlide(-1)">←</button>
+                <button id="nextBtn" onclick="changeSlide(1)">→</button>
+                </div>
             </div>
+            <script src="script.js"></script>
     </body>
 </html>

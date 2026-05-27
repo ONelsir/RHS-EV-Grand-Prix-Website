@@ -1,5 +1,14 @@
-let slideIndex = 0;
+
 const slides = document.querySelectorAll(".slides img");
+
+let slideIndex = [...slides].findIndex(slide =>
+  slide.classList.contains("active")
+);
+
+if (slideIndex === -1) {
+  slideIndex = 0;
+  slides[0].classList.add("active");
+}
 
 function changeSlide(step) {
   // Remove the active class from the current slide
@@ -10,4 +19,6 @@ function changeSlide(step) {
 
   // Add the active class to the new slide
   slides[slideIndex].classList.add("active");
+
+  
 }
