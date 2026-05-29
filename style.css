@@ -45,3 +45,7 @@ video{
   float: right;
   margin: 20px;
 }
+
+.name{
+  font-size: 25px;
+}
