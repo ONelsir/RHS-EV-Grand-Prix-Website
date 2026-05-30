@@ -21,7 +21,8 @@ button{
 .carousel {
   position: relative;
   overflow: hidden;
-  max-width: 600px;
+  float: left;
+  max-width: 740px;
   margin: 20px;
  
 }
@@ -48,4 +49,32 @@ video{
 
 .name{
   font-size: 25px;
+}
+
+#imgText{
+  margin-top: 35px;
+  margin-right: 20px;
+  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  height: 445px;
+  
+  padding: 15px;
+
+  overflow: hidden;
+}
+#vidText{
+  margin-top: 60px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-size:  20px;
+  background-color: rgb(255, 255, 255);
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 20px;
+  height: 390px;
+
+  padding: 15px;
+
+  overflow: hidden;
 }
